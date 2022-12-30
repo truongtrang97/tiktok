@@ -1,6 +1,7 @@
 import Content from './content.js'
 import {useState} from 'react'
 import HookEffect from './hook/useEffect.js'
+import HookUseRef from './hook/useRef.js'
 const order=[10,20,300]
 const gifts=[
   "123",
@@ -146,6 +147,7 @@ function App() {
       {show && <Content />}
       <br/>
       <HookEffect />
+      <HookUseRef/>
     </div>
     
   );
